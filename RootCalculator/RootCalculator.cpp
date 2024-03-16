@@ -1,19 +1,19 @@
 #include <iostream>
 #include <cmath>
-#include "ExponentialFormula.cpp"
+#include "RootFormula.cpp"
 using namespace std;
 
 void calculation () {
-    double base, power;
+    double base, root;
     string pause;
 
     cout << "Enter The Base : ";
     cin >> base;
 
-    cout << "Enter The Power : ";
-    cin >> power;
+    cout << "Enter The Root : ";
+    cin >> root;
 
-    exponent(base, power);
+    nth_root(base, root);
     cin >> pause;
 }
 
